@@ -1,19 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
   <title id="title">tbl ai logo</title>
-  <desc id="desc">Minimal line illustration of a brain with the letters tbl ai beneath it.</desc>
-  <g fill="none" stroke="#555" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M180 120c-40 0-72 32-72 72 0 40 32 72 72 72"/>
-    <path d="M180 120c0-40 32-72 72-72s72 32 72 72"/>
-    <path d="M324 120c40 0 72 32 72 72 0 40-32 72-72 72"/>
-    <path d="M252 384c0-64 12-104 60-120"/>
-    <path d="M252 384c0-64-12-104-60-120"/>
-    <path d="M252 384v96"/>
-    <path d="M204 168c20 0 36 16 36 36v24"/>
-    <path d="M300 168c-20 0-36 16-36 36v24"/>
-    <path d="M324 204c0 20-16 36-36 36"/>
-    <path d="M180 240c20 0 36 16 36 36"/>
+  <desc id="desc">Rounded square with a circuit brain icon and the letters tbl inside for tbl ai.</desc>
+  <defs>
+    <linearGradient id="tblGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6f5bff"/>
+      <stop offset="50%" stop-color="#4f9bff"/>
+      <stop offset="100%" stop-color="#44d9d1"/>
+    </linearGradient>
+    <linearGradient id="tblStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c2ecff"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="32" fill="url(#tblGradient)"/>
+  <g fill="none" stroke="url(#tblStroke)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 60c0-12 10-22 22-22s22 10 22 22-10 22-22 22" opacity="0.9"/>
+    <path d="M74 82c-12 0-22 10-22 22" opacity="0.9"/>
+    <path d="M74 82c12 0 22 10 22 22" opacity="0.9"/>
+    <path d="M74 46v88" opacity="0.5"/>
+    <path d="M90 58l18-12" opacity="0.5"/>
+    <path d="M58 58L40 46" opacity="0.5"/>
   </g>
-  <g fill="#555">
-    <path d="M128 446v-94h28v94h-28zm69-94c26 0 44 18 44 47 0 31-18 49-44 49s-44-18-44-49c0-29 18-47 44-47zm0 24c-10 0-17 8-17 23 0 16 7 24 17 24s17-8 17-24c0-15-7-23-17-23zm87-24v52c0 10 6 15 14 15 6 0 12-2 18-6v-61h28v94h-28v-6c-8 5-16 8-27 8-23 0-33-14-33-37v-59h28zm120 0c26 0 44 18 44 47 0 31-18 49-44 49s-44-18-44-49c0-29 18-47 44-47zm0 24c-10 0-17 8-17 23 0 16 7 24 17 24s17-8 17-24c0-15-7-23-17-23z"/>
+  <g fill="#ffffff">
+    <path d="M40 118h20v-8H40v-12h-8v40h8v-12h20v-8H40z"/>
+    <path d="M70 98h8v32h-8z"/>
+    <path d="M86 98h14c10 0 18 6 18 16 0 8-4 14-12 16l12 8h-12l-11-8v8h-9zm14 24c6 0 9-3 9-8s-3-8-9-8h-5v16z"/>
   </g>
 </svg>
