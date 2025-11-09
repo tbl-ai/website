@@ -7,19 +7,115 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">tbl ai</div>
+    <div class="page">
+        <header class="site-header">
+            <div class="brand">
+                <img src="images/tbl-ai-logo.svg" alt="tbl ai logo" class="brand-logo" width="72" height="72">
+                <div class="brand-copy">
+                    <span class="brand-name">tbl ai</span>
+                    <span class="brand-tagline">Thinking, building for life.</span>
+                </div>
+            </div>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#mission">Mission</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#approach">Approach</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
         <main>
-            <h1>Thinking, building for life.</h1>
-            <p>We are a stealth-mode AI company. Get in touch with us.</p>
-            <a href="mailto:contact@tbl.ai" class="cta-button">Contact Us</a>
+            <section class="hero" id="top">
+                <div class="hero-content">
+                    <h1>Building AI systems that make life better.</h1>
+                    <p>tbl ai partners with visionary teams to create intelligent products that solve real-world problems across health, sustainability, and productivity.</p>
+                    <div class="cta-group">
+                        <a href="mailto:contact@tbl.ai" class="cta-button primary">Start a conversation</a>
+                        <a href="#solutions" class="cta-button secondary">Discover what we do</a>
+                    </div>
+                </div>
+                <div class="hero-highlight">
+                    <h2>Areas of focus</h2>
+                    <ul>
+                        <li>Clinical insight platforms that empower care teams.</li>
+                        <li>Responsible automation that augments human creativity.</li>
+                        <li>Edge-ready intelligence for climate and infrastructure resilience.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="split-section" id="mission">
+                <div class="section-content">
+                    <h2>Mission</h2>
+                    <p>We are a stealth-mode AI studio dedicated to improving the way people live and work. Our team brings together decades of experience in machine learning, product design, and systems engineering to deliver thoughtful, enduring solutions.</p>
+                </div>
+                <div class="section-content">
+                    <h3>What drives us</h3>
+                    <p>From discovery to deployment, we prioritize measurable human impact, responsible data practices, and trusted collaboration with our partners.</p>
+                </div>
+            </section>
+
+            <section class="feature-grid" id="solutions" aria-labelledby="solutions-title">
+                <div class="section-heading">
+                    <h2 id="solutions-title">What we build</h2>
+                    <p>tbl ai helps organizations move from concept to production with confidence. Here are a few ways we collaborate.</p>
+                </div>
+                <div class="grid">
+                    <article class="feature-card">
+                        <h3>Intelligent products</h3>
+                        <p>Rapidly prototype and launch AI-native experiences tailored to your customers, backed by modern infrastructure and iterative learning.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Applied research</h3>
+                        <p>Design experiments, evaluate emerging models, and translate breakthroughs into practical capabilities that fit your roadmap.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Strategic partnerships</h3>
+                        <p>Work alongside our team to accelerate development, build internal expertise, and deliver outcomes that scale responsibly.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="split-section reverse" id="approach">
+                <div class="section-content">
+                    <h2>How we partner</h2>
+                    <ul>
+                        <li><strong>Discover</strong> opportunities through collaborative workshops and rigorous data assessment.</li>
+                        <li><strong>Design</strong> solutions with human-centered principles and transparent evaluation metrics.</li>
+                        <li><strong>Deliver</strong> resilient systems with privacy, security, and lifecycle stewardship built in.</li>
+                    </ul>
+                </div>
+                <div class="section-content">
+                    <h3>Trusted by teams who care about impact</h3>
+                    <p>We embed with leaders who believe AI should amplify human potential. If that sounds like you, let’s build together.</p>
+                </div>
+            </section>
+
+            <section class="callout" id="contact">
+                <div>
+                    <h2>Let’s collaborate</h2>
+                    <p>We’re selective about the projects we take on, partnering only where we can deliver meaningful, long-term value. Share your vision and we’ll explore how tbl ai can help.</p>
+                </div>
+                <div class="contact-options">
+                    <a href="mailto:contact@tbl.ai" class="cta-button primary">Email contact@tbl.ai</a>
+                    <div class="contact-meta">
+                        <span>Prefer intros? We’re always grateful for warm introductions from trusted partners.</span>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
+            <p class="footer-note">© <span id="current-year"></span> tbl ai. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
         </footer>
     </div>
+    <script>
+        const yearElement = document.getElementById('current-year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+        }
+    </script>
 </body>
 </html>
