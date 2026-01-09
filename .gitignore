@@ -1,0 +1,5 @@
+# Ignore memory-bank directory
+memory-bank/
+
+# Ignore node_modules
+node_modules/
